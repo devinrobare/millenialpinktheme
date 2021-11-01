@@ -1,0 +1,34 @@
+glossier baby pink = "#ffebed" soft millenial pink used for the background
+
+-------------BALM DOT COM---------------
+cherry balm dot com = "#91000a" deep red
+cherry bdc cap color = "#ffb8cf" bubblegum pink
+
+rose balm dot com =  "#ffdbf5" slightly more violet toned than the glossier pink
+rose bdc cap color = "#007554" dark blue toned green
+
+mint balm dot com = "#c9fffb" seafoam
+mint bdc cap color = "#c9edff" cool pastel blue, almost periwinkle
+
+mango bdc cap color = "#b3dbff" sky blue
+mango balm dot com = "#eda515" mango color
+
+bday cake bdc cap color = "#fff7db" buttery pastel yellow, very light/neutral
+bday cake bdc logo color = "#3dffdc" bright turquoise
+bday cake bdc text color = "#c92053" muted coral pink
+
+berry balm dot com = "#9a0fd6" bright violet
+berry bdc cap = "#e89f56" muted pumpkin
+
+coconut balm dot com = "#ffb19c" pastel peach
+coconut bdc cap = "#ff8254" hot coral orange
+
+cookie balm dot com = "#d99b30" cinnamon orangey-brown
+cookie bdc cap = "#156d75" deep teal
+
+------------OTHER-------------
+super bounce = "#ebebf7" grey-toned ultra-light pastel purple
+super glow = "#ffdabf" pastel tangerine
+super pure = "#95cef0" slightly grey sky blue
+
+lidwash in lawn = "#dae85d" light yellow-green

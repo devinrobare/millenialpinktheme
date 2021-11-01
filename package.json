@@ -1,0 +1,21 @@
+{
+    "name": "millenialpinktheme",
+    "displayName": "MillenialPinkTheme",
+    "description": "Inspired by the glossier javascript post I saw months ago",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MillenialPinkTheme",
+                "uiTheme": "vs",
+                "path": "./themes/MillenialPinkTheme-color-theme.json"
+            }
+        ]
+    }
+}
