@@ -1,8 +1,18 @@
 {
+    "publisher": "DevinRobare",
     "name": "millenialpinktheme",
     "displayName": "MillenialPinkTheme",
-    "description": "Inspired by the glossier javascript post I saw months ago",
+    "description": "Inspired by the gl*ssier javascript post I saw months ago",
     "version": "0.0.1",
+    "galleryBanner.color": "#ffebed",
+    "homepage": "https://github.com/devinrobare/millenialpinktheme/blob/main/README.md",
+    "bugs": {
+        "email": "devinrobare@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devinrobare/millenialpinktheme"
+    },
     "engines": {
         "vscode": "^1.61.0"
     },
@@ -17,5 +27,6 @@
                 "path": "./themes/MillenialPinkTheme-color-theme.json"
             }
         ]
+    
     }
 }

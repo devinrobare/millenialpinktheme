@@ -3,55 +3,101 @@
 	"type": "light",
 	"window.titleBarStyle": "custom",
 	"editor.inlineSuggest.enabled": true,
+	"editor.overviewRulerBorder": false,
 	"colors": 
 	{
 		"editor.background": "#ffebed",
+
 		"titleBar.activeBackground":"#ffb8cf",
 	    "titleBar.activeForeground": "#91000a",
-        "list.activeSelectionIconForeground": "#eedfc4",
+
 		"activityBar.background": "#ffdbf5",
 		"activityBar.foreground": "#007554",
+
 		"sideBar.background": "#fff8ed",
 		"sideBar.foreground": "#13baba",
 		"sideBar.border": "#c9fffb",
+		"sideBarSectionHeader.background": "#9378ff30",
+
 		"editorGroupHeader.tabsBackground": "#ebebf7",
 		"editorGroup.dropBackground": "#ff80e350",
+
 		"tab.inactiveBackground": "#ebebf7", 
+
 		"toolbar.hoverBackground": "#febed3",
 		"toolbar.activeBackground": "#febed3",
+
 		"textLink.activeForeground": "#b3dbff",
+
+		"list.activeSelectionIconForeground": "#eedfc4",
 		"list.activeSelectionBackground": "#c9edff",
-		"list.activeSelectionForeground": "#ff80e3",
+		"list.activeSelectionForeground": "#ff7893",
+		"list.inactiveSelectionBackground": "#ff80e335", 
 		"list.focusBackground": "#ffa8d1",
+		"list.hoverBackground": "#c9edff50",
+		"list.focusOutline": "#13baba",
+
 		"button.background": "#007554",
 		"button.foreground": "#ffdbf5",
+
 		"checkbox.border": "#007554",
+
 		"dropdown.background": "#d8f2eb",
 		"dropdown.listBackground": "#d8f2eb",
 		"dropdown.border": "#9378ff",
 		"dropdown.foreground": "#9378ff",
+
 		"debugIcon.breakpointForeground": "#ff7893",
 		"debugIcon.startForeground": "#ff7893",
-		"editor.selectionForeground": "#c9fffb75",
+
+		"editor.selectionBackground": "#ff80e390",
+		"editor.selectionHighlightBackground": "#ff789375",
 		"editor.wordHighlightBackground": "#ff789375",
+		"editorIndentGuide.activeBackground": "#00755490",
+    	"editorIndentGuide.background": "#ff789398",
+		"editorCursor.background": "#ff0000",
+
 		"editorInlayHint.background": "#ffdbf5",
 		"editorInlayHint.foreground": "#ffdbf5",
 		"editorInlayHint.typeBackground": "#ffb19c",
 		"editorInlayHint.typeForeground": "#ffb19c",
 		"editorInlayHint.parameterForeground": "#ebebf7",
-		"editorInlayHint.parameterBackground": "#ebebf7",
+
+		"editorOverviewRuler.border": "#ff789380",
+		"editorOverviewRuler.background": "#fff8ed",
+		"editorOverviewRuler.findMatchForeground": "#ff789395",
+		"editorOverviewRuler.selectionHighlightForeground": "#ff80e395",
+		"editorOverviewRuler.wordHighlightForeground": "#3dffdc85",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#9a0fd685",
+		"editorBracketMatch.background": "#3dffdc30",
+		"editorBracketMatch.border": "#ff80e3",
+		"editorOverviewRuler.bracketMatchForeground": "#00755490",
+		"editorOverviewRuler.warningForeground": "#f50a0a98",
+
 		"input.background": "#ffdbf5",
 		"input.border":"#d10d99",
 		"input.foreground": "#9a0fd6",
 		"inputOption.activeBackground": "#ebebf7",
 		"inputOption.activeBorder": "#24a0e3",
+
 		"minimap.background": "#ffdbf5",
 		"minimap.selectionHighlight": "#ffebed",
-		"minimap.warningHighlight": "#ff0000"
+		"minimap.warningHighlight": "#ff0000",
+		"minimapSlider.background": "#9378ff55",
+		"minimapSlider.hoverBackground": "#9378ff70",
+		"minimapSlider.activeBackground": "#9378ff90",
 
+		"statusBar.background": "#b3dbff",
+		"statusBar.foreground": "#9a0fd6",
+		"statusBar.noFolderBackground" : "#d8f2eb",
+    	"statusBar.debuggingBackground": "#ff80e3",
+
+		"scrollbar.shadow": "#d8f2eb35",
+		"scrollbarSlider.background": "#9378ff45",
+		"scrollbarSlider.activeBackground": "#9378ff85",
+		"scrollbarSlider.hoverBackground": "#9378ff75"
 	},
 	"tokenColors": [
-		//General text colors
 		{
 			"name": "Comments",
 			"scope": [
@@ -178,7 +224,6 @@
 				"foreground": "#d97f09"
 			}
 		},
-		//Python text colors
 		{
 			"name": "Python Variables",
 			"scope": "source.python",
@@ -186,7 +231,6 @@
 				"foreground": "#d10d99"
 				}
 		},
-		//C++ text colors
 		{
 			"name": "C++ Variables",
 			"scope": ["meta.block.cpp",
@@ -206,7 +250,6 @@
 				"foreground": "#f50a0a"
 				}
 		},
-		//C# text colors
 		{
 			"name": "C# Variables",
 			"scope": ["entity.name.variable.parameter.cs",
@@ -216,7 +259,6 @@
 				"foreground": "#d10d99"
 				}
 		},
-		//Java text colors
 		{
 			"name": "Java Variables",
 			"scope": ["meta.method.body.java",
@@ -229,7 +271,6 @@
 				"foreground": "#d10d99"
 				}
 		},
-		//JavaScript text colors
 		{
 			"name": "JavaScript Functions",
 			"scope": [
@@ -273,7 +314,7 @@
 			"name": "Strings: Symbols",
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#e89f56"
+				"foreground": "#13baba"
 			}
 		},
 		{
@@ -283,7 +324,6 @@
 				"foreground": "#000000"
 			}
 		},
-		//HTML text colors
 		{
 			"name": "HTML: Doctype Declaration",
 			"scope": [
@@ -343,7 +383,6 @@
 				"foreground": "#9a0fd6"
 			}
 		},
-		//CSS text colors
 		{
 			"name": "CSS: Selectors",
 			"scope": [
@@ -363,7 +402,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#c20c27"
+				"foreground": "#d10d99"
 			}
 		},
 		{
@@ -384,7 +423,6 @@
 				"fontStyle": "bold"
 			}
 		},
-		//Markup Language (JSON)
 		{
 			"name": "Markup: Changed",
 			"scope": "markup.changed",
@@ -501,7 +539,7 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#d99b30"
+				"foreground": "#13baba"
 			}
 		},
 		{

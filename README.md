@@ -1,13 +1,6 @@
-# README
-## This is the README for your extension "millenialpinktheme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Pink Mode is the new Dark Mode
+Inspired by a post on the make up brand Gl*ssier's instagram, I pulled colors from product images on their website. Taking into account that it needed to be functional too, I also referenced solarized themes to carefully choose a color palette. The end result? A soft pink theme that's easy to read and reminds me of a slice of birthday cake. My red-green colorblind husband even gave it the stamp of approval! 
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+<Image source="pinkThemeAppearance.png">
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Tested with JavaScript, Python, C++, C#, Java, HTML and CSS to ensure readability and aesthetics.
