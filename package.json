@@ -3,7 +3,7 @@
     "name": "millenialpinktheme",
     "displayName": "MillenialPinkTheme",
     "description": "Inspired by the gl*ssier javascript post I saw months ago",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "galleryBanner.color": "#ffebed",
     "homepage": "https://github.com/devinrobare/millenialpinktheme/blob/main/README.md",
     "bugs": {
@@ -27,6 +27,5 @@
                 "path": "./themes/MillenialPinkTheme-color-theme.json"
             }
         ]
-    
     }
 }
